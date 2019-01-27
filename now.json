@@ -4,9 +4,10 @@
 	"alias": [
 		"sparklegrid.tech"
 	],
-	"static": {
-		"directoryListing": false,
-		"cleanUrls": true,
-		"trailingSlash": false
-	}
+	"builds": [
+		{
+			"src": "*.html",
+			"use": "@now/static"
+		}
+	]
 }
