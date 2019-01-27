@@ -3,5 +3,10 @@
 	"version": 2,
 	"alias": [
 		"sparklegrid.tech"
-	]
+	],
+	"static": {
+		"directoryListing": false,
+		"cleanUrls": true,
+		"trailingSlash": false
+	}
 }
