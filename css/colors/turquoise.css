@@ -1,0 +1,36 @@
+/* Theme Name: Hublind - Landing page Template
+   Author: Coderthemes
+   Author e-mail: coderthemes@gmail.com
+   Version: 1.0.0
+   Created: May 2017
+   File Description: Color css
+*/
+
+.bg-custom,.btn-custom,.title-box,.pricing-title,.blog-date {
+    background-color: #0bccb6;
+}
+
+.btn-custom,.social-list li a:hover {
+    border: 1px solid #0bccb6;
+}
+
+/* Button hover & Focus color */
+.btn-custom:focus,.btn-custom:hover {
+    background-color: #10b3a0;
+    border: 1px solid #10b3a0;
+    outline: none;
+}
+
+.navbar-custom {
+    border-top: 3px solid #0bccb6;
+}
+
+.features-alt h4,.feat-facts .feat-facts-box h2,
+.social-list li a:hover,.blog-post .read-more,
+.media-body a{
+    color: #0bccb6;
+}
+
+.main .pricing-item-inner{
+    border-color: #0bccb6;
+}

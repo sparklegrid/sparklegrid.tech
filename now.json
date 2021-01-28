@@ -3,11 +3,5 @@
 	"version": 2,
 	"alias": [
 		"sparklegrid.tech"
-	],
-	"builds": [
-		{
-			"src": "*.html",
-			"use": "@now/static"
-		}
 	]
 }
