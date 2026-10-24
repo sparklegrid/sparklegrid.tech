@@ -1,0 +1,9 @@
+{
+  "name": "sparklegrid-tech",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

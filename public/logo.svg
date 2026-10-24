@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="sparkGrad" x1="12" y1="12" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#0018FF"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <!-- Crisp geometric vector remake of Sparklegrid mark -->
+  <path
+    fill="url(#sparkGrad)"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M33 14H109L90 47L106 75L87 108H11L30 75L14 47L33 14ZM38 24L23 47L35 67L60 24H38ZM85 55L60 98H82L97 75L85 55Z"
+  />
+</svg>
