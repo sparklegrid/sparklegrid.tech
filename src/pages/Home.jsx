@@ -171,10 +171,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
               <div className="text-xs font-semibold uppercase tracking-widest text-spark-600 dark:text-spark-400">
-                Featured Live Products
+                Featured Case Studies
               </div>
               <h2 className="mt-2 font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white">
-                Interact with what we’ve built
+                Explore what we’ve built and shipped
               </h2>
             </div>
             <Link

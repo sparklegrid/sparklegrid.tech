@@ -34,7 +34,7 @@ export default function WorkPage() {
             Real products built for real impact.
           </h1>
           <p className="mt-4 text-base sm:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-            Explore our live deployments across financial security infrastructure, beauty e-commerce, sports community apps, and digital hospitality. Try the interactive demos or launch the live products directly.
+            Explore our live deployments across financial security infrastructure, beauty e-commerce, sports community apps, and digital hospitality.
           </p>
         </div>
 

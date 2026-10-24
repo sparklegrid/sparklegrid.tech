@@ -124,49 +124,51 @@ export const CASE_STUDIES = [
     category: 'Financial Infrastructure & Security Portal',
     year: 'Enterprise',
     liveUrl: 'https://fraudportal.nibss-plc.com.ng/',
-    allowIframe: false,
+    screenshotUrl:
+      'https://iad.microlink.io/WOsIDlRZ_OJcrBPaxdPmaepZF--hQU3EgoIeBRk4AlIU_nxXEoZxfdKjFaFHYBl7BXyEiTB4dwuJFOnuDHn60w.png',
     headline:
-      'Centralized electronic fraud reporting, tracking, and inter-bank coordination portal for financial institutions.',
+      'Centralized electronic fraud reporting, tracking, and inter-bank coordination portal for licensed Nigerian financial institutions.',
     challenge:
-      'Banks and payment service providers needed a unified, secure industry portal to log, track, and coordinate responses to electronic fraud incidents across the payment ecosystem.',
+      'Deposit Money Banks (DMBs), Microfinance Banks, Mobile Money Operators, and Payment Service Providers needed a unified CBN-aligned industry portal to log, track, and coordinate responses to electronic fraud incidents.',
     solution:
-      'Delivered a streamlined institutional portal with structured incident workflows, real-time case status tracking, role-based access for authorized stakeholders, and executive reporting.',
+      'Delivered a secure institutional Angular web portal for the NIBSS Industry Fraud Desk with authorized officer authentication, structured incident logging, inter-bank recovery requests, and quarterly analytics.',
     impact: [
       { value: 'Real-Time', label: 'Inter-bank incident logging' },
-      { value: 'Unified', label: 'Industry-wide case tracking' },
-      { value: '24/7', label: 'Institutional availability' },
+      { value: 'DMBs & PSPs', label: 'Ecosystem-wide coverage' },
+      { value: '24/7', label: 'Industry Fraud Desk availability' },
     ],
     tags: ['Fintech & Security', 'Enterprise Portal', 'Web Application'],
     highlights: [
       { label: 'Incident Logging', status: 'Structured Flow' },
       { label: 'Case Coordination', status: 'Multi-Bank' },
-      { label: 'Audit & Compliance', status: 'Secure Access' },
+      { label: 'Audit & Compliance', status: 'CBN Aligned' },
     ],
   },
   {
     id: 'hairitage-by-rokah',
     slug: '02',
     client: 'Hairitage by Rokah',
-    category: 'Beauty Brand, E-Commerce & Booking',
+    category: 'Beauty Brand, E-Commerce & Studio Booking',
     year: 'Live Product',
     liveUrl: 'https://hairitagebyrokah.co.uk',
-    allowIframe: true,
+    screenshotUrl:
+      'https://iad.microlink.io/br00Z0a8w7mgeDUrMCFka88gHh9-WrOd1PjYQgdzC42IVq6hpRIeCZi5TgjFeb0nUaFov9pAGtGSoi0x00irOQ.png',
     headline:
-      'Elevating natural haircare, protective styling, and culture through a warm, modern digital flagship and booking experience.',
+      'Microlocs, locs, and natural hair styling studio in Mansfield, UK paired with an online haircare and bulk hair extension storefront.',
     challenge:
-      'Hairitage by Rokah needed an inviting digital home in the UK that celebrates natural hair culture while making it effortless for clients to explore protective styles, book appointments, and shop haircare products.',
+      'Hairitage by Rokah needed a welcoming UK digital flagship for its private studio in Mansfield—combining tiered appointment scheduling (Microlocs, natural twists, and steam treatments) with direct e-commerce for bulk hair and haircare products.',
     solution:
-      'Crafted a brand-forward web experience with seamless style discovery, appointment booking flows, and mobile-first product browsing that reflects over a decade of styling mastery.',
+      'Built an integrated Shopify & Acuity Scheduling web experience featuring promo campaigns (BULK5), same-day Mansfield delivery, transparent duration/pricing tiers, and a 16-product haircare & extension catalog.',
     impact: [
-      { value: 'Seamless', label: 'Online style & care discovery' },
-      { value: 'Mobile-First', label: 'Booking & shopping journey' },
-      { value: 'UK-Wide', label: 'Brand & community reach' },
+      { value: '16+ SKU', label: 'Haircare & bulk hair storefront' },
+      { value: 'Mansfield UK', label: 'Private studio & same-day delivery' },
+      { value: 'Automated', label: 'Deposit & consultation booking' },
     ],
     tags: ['Brand Experience', 'E-Commerce', 'Web Platform'],
     highlights: [
-      { label: 'Style Showcase', status: 'Visual Gallery' },
-      { label: 'Salon Booking', status: 'Easy Scheduling' },
-      { label: 'Haircare Shop', status: 'Direct Storefront' },
+      { label: 'Microlocs Studio', status: 'Online Scheduling' },
+      { label: 'HH Bulk Hair Shop', status: 'Direct Storefront' },
+      { label: 'Trustpilot Verified', status: 'UK Brand' },
     ],
   },
   {
@@ -176,49 +178,51 @@ export const CASE_STUDIES = [
     category: 'Sports Community & Match Companion App',
     year: 'Live App',
     liveUrl: 'https://pickle-pal.base44.app/',
-    allowIframe: true,
+    screenshotUrl:
+      'https://iad.microlink.io/wq1c2xRIuI2NbTYSH4_6SdMjNUKd7LjXC8HRIOizJ8p7gfQpl8u-5BpOTUUGzH4XTL6RaL26ZRg0VAdu4YF1uQ.png',
     headline:
-      'An interactive companion app for pickleball players to organize games, track live scores, and connect on the court.',
+      'The Stonebridge pickleball companion for tracking wins, losses, live court queues, tournaments, and dominating the court.',
     challenge:
-      'Players wanted a fun, zero-friction web app they could pull up right courtside to organize open play rotations, keep score during rallies, and track match history with friends.',
+      'The Stonebridge pickleball community needed a dedicated web app to manage courtside live queues, record match results, run bracket tournaments, and track head-to-head player stats and weekly leaderboards.',
     solution:
-      'Built an energetic, mobile-ready web application with instant match setup, interactive scorekeeping, player pairing, and session summaries.',
+      'Created a full-featured community sports platform with 20+ integrated modules including Live Game, Live Queue, Record Match, Leaderboard, Head-to-Head analytics, Tournaments, and Year-in-Review summaries.',
     impact: [
-      { value: 'Instant', label: 'Courtside match setup' },
-      { value: 'Interactive', label: 'Live rally & score tracking' },
-      { value: 'Mobile UI', label: 'Built for on-court use' },
+      { value: '20+ Modules', label: 'Live queue, stats & tournaments' },
+      { value: 'Real-Time', label: 'Leaderboard & H2H tracking' },
+      { value: 'Mobile UI', label: 'Built for Stonebridge courts' },
     ],
-    tags: ['Consumer App', 'Interactive UI', 'Web Application'],
+    tags: ['Consumer App', 'Sports Community', 'Web Application'],
     highlights: [
-      { label: 'Live Scorekeeper', status: 'Tap-to-Score' },
-      { label: 'Player Pairing', status: 'Smart Rotation' },
-      { label: 'Match History', status: 'Session Stats' },
+      { label: 'Live Queue & Game', status: 'Courtside Ready' },
+      { label: 'Leaderboard & H2H', status: 'Player Analytics' },
+      { label: 'Tournament Engine', status: 'Bracket & Bookings' },
     ],
   },
   {
     id: 'janespices-commerce',
     slug: '04',
-    client: 'Janespices Afrokitchen',
-    category: 'Hospitality & Online Ordering',
+    client: 'Janespice’s Afro Kitchen',
+    category: 'Hospitality, Authentic Afro Cuisine & Catering',
     year: 'Live Product',
-    liveUrl: 'https://janespicesafrokitchen.com',
-    allowIframe: true,
+    liveUrl: 'https://janespicesafrokitchen.co.uk',
+    screenshotUrl:
+      'https://iad.microlink.io/x226hXfiAgMwNITN3ZshvbPBPx3rDLqib9UwzklgRD1xbce-x4MbLgcaSfnYhdoO9UiZjUbKVuKJLOKHSaowMg.png',
     headline:
-      'Turning a beloved culinary brand into a seamless online ordering and event catering platform.',
+      '“Taste the Heart of Africa” — bringing authentic Nigerian and African cuisine, spice blends, and event catering to the UK West Midlands.',
     challenge:
-      'Customers wanted an easy way to browse the restaurant menu on their phones, request event catering quotes, and place orders without waiting on phone calls.',
+      'Operating across Willenhall, West Bromwich, and Birmingham, Janespice’s Afro Kitchen needed an inviting digital presence where customers could explore authentic African dishes, small chops, and catering options online.',
     solution:
-      'Designed and launched a vibrant, mobile-friendly website with interactive menu browsing, clear catering packages, and instant kitchen order routing.',
+      'Launched a warm, brand-led culinary website showcasing signature rice dishes, traditional soups and swallows, peppered small chops, direct customer inquiries, and integrated online ordering.',
     impact: [
-      { value: '+210%', label: 'Online catering inquiries' },
-      { value: '2x', label: 'Faster mobile browsing' },
-      { value: '99.9%', label: 'Peak-hour reliability' },
+      { value: 'West Midlands', label: 'Willenhall & Birmingham reach' },
+      { value: 'Mobile-First', label: 'Menu & spice blend discovery' },
+      { value: 'Direct', label: 'Catering & takeaway inquiries' },
     ],
     tags: ['Web Platform', 'Brand Experience', 'E-Commerce'],
     highlights: [
-      { label: 'Interactive Menu', status: 'Mobile-First' },
-      { label: 'Catering Planner', status: 'Instant Quotes' },
-      { label: 'Kitchen Alerts', status: 'Real-Time' },
+      { label: 'Signature Menu', status: 'Jollof, Soups & Grill' },
+      { label: 'Small Chops & Asun', status: 'Event Catering' },
+      { label: 'Direct Inquiries', status: 'Online Channel' },
     ],
   },
 ];
