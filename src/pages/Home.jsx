@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, ArrowUpRight, Sparkles } from 'lucide-react';
 import HeroTelemetryVisualizer from '../components/HeroTelemetryVisualizer';
 import SpotlightCard from '../components/SpotlightCard';
+import InteractiveProductCard from '../components/InteractiveProductCard';
 import { COMPANY, SERVICES, CASE_STUDIES, PRINCIPLES } from '../data/siteData';
 
 export default function Home() {
@@ -164,84 +165,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Work Preview */}
+      {/* Featured Interactive Products Section */}
       <section className="py-20 border-t border-zinc-200/70 dark:border-white/[0.06]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
               <div className="text-xs font-semibold uppercase tracking-widest text-spark-600 dark:text-spark-400">
-                Selected Work
+                Featured Live Products
               </div>
               <h2 className="mt-2 font-display text-3xl sm:text-4xl font-bold tracking-tight text-zinc-950 dark:text-white">
-                Real results for growing businesses
+                Interact with what we’ve built
               </h2>
             </div>
             <Link
               to="/work"
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-spark-600 dark:text-spark-400 hover:underline"
             >
-              <span>View all projects</span>
+              <span>View all 4 live products</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-            {CASE_STUDIES.slice(0, 2).map((study) => (
-              <SpotlightCard key={study.id} className="p-6 sm:p-8 flex flex-col justify-between">
-                <div>
-                  <div className="flex flex-wrap items-center justify-between gap-2">
-                    <span className="text-xs font-semibold text-spark-600 dark:text-spark-400">
-                      {study.category}
-                    </span>
-                    <span className="text-xs text-zinc-500">{study.year}</span>
-                  </div>
-
-                  <h3 className="mt-3 font-display text-2xl font-bold text-zinc-950 dark:text-white">
-                    {study.client}
-                  </h3>
-                  <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    {study.headline}
-                  </p>
-
-                  {/* Key Project Highlights */}
-                  <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-                    {study.highlights.map((item) => (
-                      <div
-                        key={item.label}
-                        className="rounded-xl border border-zinc-200/80 dark:border-white/10 bg-zinc-50/90 dark:bg-zinc-900/70 p-3"
-                      >
-                        <div className="text-[11px] font-medium text-spark-600 dark:text-spark-400">
-                          {item.status}
-                        </div>
-                        <div className="mt-0.5 text-xs font-semibold text-zinc-900 dark:text-white">
-                          {item.label}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="mt-6 pt-5 border-t border-zinc-200/70 dark:border-white/[0.06] flex flex-wrap items-center justify-between gap-4">
-                  <div className="flex items-center gap-6">
-                    {study.impact.slice(0, 2).map((imp) => (
-                      <div key={imp.label}>
-                        <div className="font-display text-lg font-bold text-zinc-950 dark:text-white">
-                          {imp.value}
-                        </div>
-                        <div className="text-xs text-zinc-500">{imp.label}</div>
-                      </div>
-                    ))}
-                  </div>
-
-                  <Link
-                    to={`/work#${study.id}`}
-                    className="inline-flex items-center gap-1.5 rounded-xl border border-zinc-200 dark:border-white/10 bg-white dark:bg-zinc-900 px-3.5 py-2 text-xs font-semibold text-zinc-900 dark:text-white hover:border-spark-500/40 transition-colors"
-                  >
-                    <span>View Story</span>
-                    <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </SpotlightCard>
+          <div className="space-y-8">
+            {CASE_STUDIES.slice(0, 3).map((study) => (
+              <InteractiveProductCard key={study.id} study={study} compact />
             ))}
           </div>
         </div>

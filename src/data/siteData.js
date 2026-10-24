@@ -118,99 +118,107 @@ export const SERVICES = [
 
 export const CASE_STUDIES = [
   {
-    id: 'janespices-commerce',
+    id: 'nibss-fraud-portal',
     slug: '01',
-    client: 'Janespices Afrokitchen',
-    category: 'Digital Ordering & Brand Experience',
-    year: '2024',
-    liveUrl: 'https://janespicesafrokitchen.com',
-    headline: 'Turning a beloved culinary brand into a seamless online ordering and catering experience.',
+    client: 'NIBSS Fraud Reporting Portal',
+    category: 'Financial Infrastructure & Security Portal',
+    year: 'Enterprise',
+    liveUrl: 'https://fraudportal.nibss-plc.com.ng/',
+    allowIframe: false,
+    headline:
+      'Centralized electronic fraud reporting, tracking, and inter-bank coordination portal for financial institutions.',
     challenge:
-      'Customers wanted an easy way to browse the menu on their phones, request event catering quotes, and place orders without waiting on phone calls.',
+      'Banks and payment service providers needed a unified, secure industry portal to log, track, and coordinate responses to electronic fraud incidents across the payment ecosystem.',
     solution:
-      'We designed and launched a vibrant, mobile-friendly website with interactive menu browsing, clear catering packages, and instant order routing.',
+      'Delivered a streamlined institutional portal with structured incident workflows, real-time case status tracking, role-based access for authorized stakeholders, and executive reporting.',
+    impact: [
+      { value: 'Real-Time', label: 'Inter-bank incident logging' },
+      { value: 'Unified', label: 'Industry-wide case tracking' },
+      { value: '24/7', label: 'Institutional availability' },
+    ],
+    tags: ['Fintech & Security', 'Enterprise Portal', 'Web Application'],
+    highlights: [
+      { label: 'Incident Logging', status: 'Structured Flow' },
+      { label: 'Case Coordination', status: 'Multi-Bank' },
+      { label: 'Audit & Compliance', status: 'Secure Access' },
+    ],
+  },
+  {
+    id: 'hairitage-by-rokah',
+    slug: '02',
+    client: 'Hairitage by Rokah',
+    category: 'Beauty Brand, E-Commerce & Booking',
+    year: 'Live Product',
+    liveUrl: 'https://hairitagebyrokah.co.uk',
+    allowIframe: true,
+    headline:
+      'Elevating natural haircare, protective styling, and culture through a warm, modern digital flagship and booking experience.',
+    challenge:
+      'Hairitage by Rokah needed an inviting digital home in the UK that celebrates natural hair culture while making it effortless for clients to explore protective styles, book appointments, and shop haircare products.',
+    solution:
+      'Crafted a brand-forward web experience with seamless style discovery, appointment booking flows, and mobile-first product browsing that reflects over a decade of styling mastery.',
+    impact: [
+      { value: 'Seamless', label: 'Online style & care discovery' },
+      { value: 'Mobile-First', label: 'Booking & shopping journey' },
+      { value: 'UK-Wide', label: 'Brand & community reach' },
+    ],
+    tags: ['Brand Experience', 'E-Commerce', 'Web Platform'],
+    highlights: [
+      { label: 'Style Showcase', status: 'Visual Gallery' },
+      { label: 'Salon Booking', status: 'Easy Scheduling' },
+      { label: 'Haircare Shop', status: 'Direct Storefront' },
+    ],
+  },
+  {
+    id: 'pickle-pal',
+    slug: '03',
+    client: 'PicklePal',
+    category: 'Sports Community & Match Companion App',
+    year: 'Live App',
+    liveUrl: 'https://pickle-pal.base44.app/',
+    allowIframe: true,
+    headline:
+      'An interactive companion app for pickleball players to organize games, track live scores, and connect on the court.',
+    challenge:
+      'Players wanted a fun, zero-friction web app they could pull up right courtside to organize open play rotations, keep score during rallies, and track match history with friends.',
+    solution:
+      'Built an energetic, mobile-ready web application with instant match setup, interactive scorekeeping, player pairing, and session summaries.',
+    impact: [
+      { value: 'Instant', label: 'Courtside match setup' },
+      { value: 'Interactive', label: 'Live rally & score tracking' },
+      { value: 'Mobile UI', label: 'Built for on-court use' },
+    ],
+    tags: ['Consumer App', 'Interactive UI', 'Web Application'],
+    highlights: [
+      { label: 'Live Scorekeeper', status: 'Tap-to-Score' },
+      { label: 'Player Pairing', status: 'Smart Rotation' },
+      { label: 'Match History', status: 'Session Stats' },
+    ],
+  },
+  {
+    id: 'janespices-commerce',
+    slug: '04',
+    client: 'Janespices Afrokitchen',
+    category: 'Hospitality & Online Ordering',
+    year: 'Live Product',
+    liveUrl: 'https://janespicesafrokitchen.com',
+    allowIframe: true,
+    headline:
+      'Turning a beloved culinary brand into a seamless online ordering and event catering platform.',
+    challenge:
+      'Customers wanted an easy way to browse the restaurant menu on their phones, request event catering quotes, and place orders without waiting on phone calls.',
+    solution:
+      'Designed and launched a vibrant, mobile-friendly website with interactive menu browsing, clear catering packages, and instant kitchen order routing.',
     impact: [
       { value: '+210%', label: 'Online catering inquiries' },
       { value: '2x', label: 'Faster mobile browsing' },
       { value: '99.9%', label: 'Peak-hour reliability' },
     ],
-    tags: ['Web Platform', 'Brand Experience', 'Mobile Commerce'],
+    tags: ['Web Platform', 'Brand Experience', 'E-Commerce'],
     highlights: [
       { label: 'Interactive Menu', status: 'Mobile-First' },
       { label: 'Catering Planner', status: 'Instant Quotes' },
       { label: 'Kitchen Alerts', status: 'Real-Time' },
-    ],
-  },
-  {
-    id: 'aether-settlement',
-    slug: '02',
-    client: 'AetherPay Business',
-    category: 'Fintech & Payments Platform',
-    year: '2025',
-    liveUrl: null,
-    headline: 'A unified dashboard for businesses to track multi-currency payments and payouts in real time.',
-    challenge:
-      'Finance teams were spending hours matching transactions across different payment providers and spreadsheets.',
-    solution:
-      'We built a clean, real-time financial dashboard that automatically matches incoming payments, tracks balances, and generates instant reports.',
-    impact: [
-      { value: '85%', label: 'Less time on manual reports' },
-      { value: '100%', label: 'Accurate balance tracking' },
-      { value: '10x', label: 'Faster payout processing' },
-    ],
-    tags: ['Web Application', 'Product Design', 'Automation'],
-    highlights: [
-      { label: 'Unified Wallet', status: 'Multi-Currency' },
-      { label: 'Auto-Matching', status: 'Instant Sync' },
-      { label: 'Team Controls', status: 'Role-Based' },
-    ],
-  },
-  {
-    id: 'vortex-ops-ai',
-    slug: '03',
-    client: 'Vortex Logistics',
-    category: 'AI Operations Assistant',
-    year: '2026',
-    liveUrl: null,
-    headline: 'Helping operations teams find answers and process shipping documents in seconds with AI.',
-    challenge:
-      'Support and dispatch teams had to search through ratusan PDFs, emails, and spreadsheets to answer customer delivery questions.',
-    solution:
-      'We created a smart AI assistant integrated into their workspace that reads shipping documents and drafts accurate responses in one click.',
-    impact: [
-      { value: '-68%', label: 'Faster customer responses' },
-      { value: '15 hrs', label: 'Saved per coordinator weekly' },
-      { value: '24/7', label: 'Instant document lookup' },
-    ],
-    tags: ['AI Assistant', 'Workflow Automation', 'Internal Tools'],
-    highlights: [
-      { label: 'Document Reader', status: 'Smart Scan' },
-      { label: 'Instant Search', status: 'Verified Answers' },
-      { label: 'One-Click Reply', status: 'Automated' },
-    ],
-  },
-  {
-    id: 'kinetix-db-cloud',
-    slug: '04',
-    client: 'Kinetix Health Network',
-    category: 'Cloud & Patient Portal',
-    year: '2025',
-    liveUrl: null,
-    headline: 'Upgrading clinic scheduling and patient records for speed, privacy, and zero downtime.',
-    challenge:
-      'Rapid growth across clinics slowed down their booking system and made daily data backups difficult to manage.',
-    solution:
-      'We modernized their cloud infrastructure, sped up patient record searches, and set up automated daily backups with full peace of mind.',
-    impact: [
-      { value: '3x', label: 'Faster booking & search' },
-      { value: '100%', label: 'Automated daily backups' },
-      { value: 'Zero', label: 'Service interruptions' },
-    ],
-    tags: ['Cloud & Data', 'Web Portal', 'Reliability'],
-    highlights: [
-      { label: 'Fast Scheduling', status: 'Instant Load' },
-      { label: 'Secure Records', status: 'Protected' },
-      { label: 'Auto Backups', status: 'Daily Verified' },
     ],
   },
 ];
@@ -246,8 +254,8 @@ export const TIMELINE = [
   },
   {
     year: '2022',
-    title: 'Mobile Apps & Cloud Growth',
-    detail: 'Expanded into full-scale mobile applications, e-commerce platforms, and managed cloud services for growing brands.',
+    title: 'Enterprise & E-Commerce Growth',
+    detail: 'Expanded into institutional portals, e-commerce platforms, and mobile-first web applications.',
   },
   {
     year: '2024',
