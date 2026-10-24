@@ -1,5 +1,7 @@
 {
-  "name": "sparklegrid-tech",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
